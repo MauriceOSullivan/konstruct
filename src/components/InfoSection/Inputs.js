@@ -43,7 +43,7 @@ export const homeObjThree = {
     description: 'We have you covered.',
     buttonLabel: 'Get Started', 
     imgStart: false, 
-    img:require('../../images/svg4.svg').default,
+    img:require('../../images/svg1.svg').default,
     alt: 'Car',
     dark: false, 
     primary: true, 
