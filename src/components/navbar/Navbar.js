@@ -29,20 +29,20 @@
                             >About</NavLinks> 
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services"
+                            <NavLinks to="projects"
                             smooth={true}
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80}>Services</NavLinks> 
+                            offset={-80}>Projects</NavLinks> 
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discover" 
+                            <NavLinks to="Security" 
                             smooth={true}
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80}>Discover</NavLinks> 
+                            offset={-80}>Security</NavLinks> 
                         </NavItem>
                         <NavItem>
                             <NavLinks to="signup"

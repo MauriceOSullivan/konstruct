@@ -16,23 +16,23 @@ import Icon3 from '../../images/svg3.svg'
 
 const Services = () => {
     return (
-        <ServicesContainer id="services">
-            <ServicesH1>Our Services</ServicesH1>
+        <ServicesContainer id="projects">
+            <ServicesH1>Sample Projects</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP>We help reduce your fees. </ServicesP>
+                    <ServicesH2>Excel API/Get Requests </ServicesH2>
+                    <ServicesP>Automated API Calls and Emails </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Virutual Offices</ServicesH2>
-                    <ServicesP>Access Platform. </ServicesP>
+                    <ServicesH2>Data Anomaly Detection</ServicesH2>
+                    <ServicesP>Simple SQL Analysis from databases </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>Premium Benefits </ServicesH2>
-                    <ServicesP>Unlock Membership </ServicesP>
+                    <ServicesH2>Report Generation </ServicesH2>
+                    <ServicesP>Consolidate different processes </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

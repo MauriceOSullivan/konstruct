@@ -16,12 +16,12 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Virtual Banking Made Easy</HeroH1>
+                <HeroH1>Instant environments for impactful, yet simple Python/SQL projects.  </HeroH1>
                 <HeroP>
-                    Sign up for a new account today and receive $250 in credit. 
+                    Help non-engineer, high-achieving junior employees create company-changing internal tools, prototypes, and products.
                 </HeroP>
                 <HeroBtnWrapper> 
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >
+                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false' >
                         Get Started {hover? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
