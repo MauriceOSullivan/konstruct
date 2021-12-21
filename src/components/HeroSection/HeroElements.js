@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { MdKeyboardArrowRight , MdArrowForward } from "react-icons/md";
-
+import ReactPlayer from 'react-player';
 
 export const HeroContainer = styled.div`
     background: #0c0c0c; 
@@ -26,7 +26,7 @@ export const HeroBg = styled.div`
     overflow: hidden; 
 `;
 
-export const ReactPlayer = styled.video`
+export const VideoBg = styled(ReactPlayer)`
     width: 100%; 
     height: 100%; 
     -o-object-fit: cover; 

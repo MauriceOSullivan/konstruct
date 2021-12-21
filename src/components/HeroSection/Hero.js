@@ -23,8 +23,9 @@ const HeroSection = () => {
                     width='100%'
                     height='100%' 
                     id="VideoBg"
-                />
-            </HeroBg>
+                    object-fit= 'cover' 
+                    />
+            </HeroBg>n
             <HeroContent>
                 <HeroH1>Instant environments for impactful, yet simple Python/SQL projects.  </HeroH1>
                 <HeroP>
