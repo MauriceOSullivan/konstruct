@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HeroContainer, HeroBg,  VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElement';
+import ReactPlayer from 'react-player';
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false); 
@@ -13,7 +14,16 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                    <ReactPlayer
+                    url='https://konstructvideo.s3.eu-west-2.amazonaws.com/video.mp4'
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    controls={false}
+                    width='100%'
+                    height='100%' 
+                    id="VideoBg"
+                />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Instant environments for impactful, yet simple Python/SQL projects.  </HeroH1>
