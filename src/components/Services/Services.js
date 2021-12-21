@@ -22,7 +22,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Excel API/Get Requests </ServicesH2>
-                    <ServicesP>Automated API Calls and Emails </ServicesP>
+                    <ServicesP>Automated API Calls and distribute using beautiful email templates </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
