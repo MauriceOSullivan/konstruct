@@ -24,7 +24,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Instant environments for impactful, yet simple Python/SQL projects.  </HeroH1>
                 <HeroP>
-                    Help non-engineer, high-achieving junior employees create company-changing internal tools, prototypes, and products.
+                    Help non-engineer, high-achieving junior employees who know basic coding skills to create company-changing internal tools, prototypes, and products.
                 </HeroP>
                 <HeroBtnWrapper> 
                     <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false' >
