@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     min-height: 692px; 
+    position: fixed; 
     bottom: 0; 
     left: 0; 
     right: 0; 
@@ -16,7 +17,6 @@ export const Container = styled.div`
         rgba(10, 201, 122, 1) 100%
     );
 `;
-
 
 export const FormWrap = styled.div`
     top: 30px; 

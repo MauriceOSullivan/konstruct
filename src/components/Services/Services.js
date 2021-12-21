@@ -26,8 +26,8 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Data Anomaly Detection</ServicesH2>
-                    <ServicesP>Simple SQL Analysis from databases </ServicesP>
+                    <ServicesH2>Data Deep Dives</ServicesH2>
+                    <ServicesP>Simple SQL Analysis from databases such as Snowflake or AWS Redshift </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>

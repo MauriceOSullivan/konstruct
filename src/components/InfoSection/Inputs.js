@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText: false, 
     lightTextDesc: false, 
     topLine: 'Instant Production', 
-    headline: 'Konstruct is a internal product Development Tool for Non-engineers', 
+    headline: 'Konstruct is a internal product development tool for non-engineers', 
     description: 'It allows rapid creation and automation of tasks typically done by junior analysts. It aims to solve fragmented permission granting, complicated IDE set-up, and the difficulty of launching servers',
     buttonLabel: 'Get Started', 
     imgStart: false, 
