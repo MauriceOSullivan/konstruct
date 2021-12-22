@@ -53,6 +53,9 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
     font-size: 14px; 
     margin-bottom: 16px; 
+    @media screen and (max-width: 420px){
+        font-size: 8px; 
+    }
 `
 
 export const FooterLink = styled(Link)`
@@ -62,6 +65,7 @@ export const FooterLink = styled(Link)`
     font-size: 14px; 
 
     &:hover {
+        fonts-size: 8px; 
         color: #01bf71;
         transition: 0.3s ease-out; 
     }
@@ -95,6 +99,9 @@ export const SocialLogo = styled(Link)`
     align-items: center;
     margin-bottom: 16px; 
     font-weight: bold; 
+    @media screen and (max-width 500px) {
+        font-size: 8px; 
+    }
 
 `
 

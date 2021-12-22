@@ -13,14 +13,6 @@ const HeroSection = () => {
 
     return (
         <HeroContainer>
-            <video
-            autoPlay
-            muted
-            loop
-            style={{ height: "100%", width: "120%", objectFit: "cover", outline: "none"}} //object-fit:cover
-            >
-            <source src='https://konstructvideo.s3.eu-west-2.amazonaws.com/video.mp4' type="video/mp4" />
-            </video>
             <HeroContent>
                 <HeroH1>Instant environments for impactful, yet simple Python/SQL projects.  </HeroH1>
                 <HeroP>
